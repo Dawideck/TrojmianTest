@@ -5,8 +5,8 @@ class Trojmian:
 	def licz_miejsca_zerowe(self, a, b, c):
 
 		if a == 0: # wspolczynnik kierunkowy rowny 0 => funkcja liniowa
-			return -c/(2*b)
-
+			return -c/b
+		
 		delta = (b*b) - (4 * a * c)
 		print(delta)
 

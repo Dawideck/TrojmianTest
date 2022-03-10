@@ -12,7 +12,7 @@ class TestTrojmian(unittest.TestCase):
     def test0_2_3(self):
         kwadratowa = Trojmian()
         wynik = kwadratowa.licz_miejsca_zerowe(0, 2, 3)
-        self.assertEqual(wynik, -0.75)
+        self.assertEqual(wynik, -1.50)
 
     def test1_5_4(self):
         kwadratowa = Trojmian()
